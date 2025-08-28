@@ -9,7 +9,8 @@ export function Welcome(props : WelcomeProps){
 
         <>
             <h1>{props.titulo}</h1>
-            <h2>frase do dia: {props.frase}</h2>
+            <h2>frase do dia: {props.frase} 😄</h2>
+    
         </>
     )
 }
