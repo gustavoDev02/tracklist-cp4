@@ -9,12 +9,19 @@ export function ExerciseList() {
 
     return (
         <>
-            <h2>Exercicios do dia </h2>
-            <ul > 
-                {exercicios.map((exercicio, index) => (
-                    <li key={index}>{exercicio}</li>
-                ))}
-            </ul>
+            <div style={{
+                border: "1px solid #ccc",
+                fontFamily: "helvetica",
+                marginTop: "1rem"
+            }}>
+                <h2>Exercicios do dia </h2>
+                <ul >
+                    {exercicios.map((exercicio, index) => (
+                        <li key={index}>{exercicio}</li>
+                    ))}
+                </ul>
+            </div>
+
         </>
     )
 }
