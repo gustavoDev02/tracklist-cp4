@@ -16,5 +16,5 @@ Projeto React + TypeScript simulando um diário de treino com 3 componentes prin
 
 - **Nome:** Gustavo Araujo da Silva  
 - **RM:** 566526  
-- **Componente:** Welcome
+- **Componente: Todos *feito individualmente
 
